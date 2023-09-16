@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.counter{
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    margin: 6rem 10rem 6rem 10rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.counter input{
+    font-size: 1.2rem;
+}
+.counter button{
+    background-color: black;
+    color: white;
+   padding: 0.2rem 0.7rem 0.2rem 0.4rem;;
+    margin:0.8rem;
+    font-size: 2rem;
+}
+.message p{
+    font-size: 2rem;
+}
